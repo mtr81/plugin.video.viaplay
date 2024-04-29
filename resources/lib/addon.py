@@ -67,7 +67,7 @@ else:
 def get_sql_source():
     kodi_version = xbmc.getInfoLabel('System.BuildVersion')[:2]
 
-    kodi_list = [('18', '116'), ('19', '119'), ('20', '121'), ('21', '121')]
+    kodi_list = [('18', '116'), ('19', '119'), ('20', '121'), ('21', '131')]
 
     for k in kodi_list:
         if k[0] == kodi_version:
